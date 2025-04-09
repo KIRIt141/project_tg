@@ -1,9 +1,12 @@
 __pycache__/
 
 
-.venv
-.env
 
+.env
+.gitignore
 
 my_database.db
 doc
+
+Dockerfile
+requirements.txt

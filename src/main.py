@@ -6,8 +6,8 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.filters.command import Command
 from aiogram.types import Message, CallbackQuery 
 
-import app.keyboar as kb
-from db.sqdb3 import init_db, add_user, sleep_yes, sleep_no, all_users
+from src.keyb import inline_key as kb
+from db import init_db, add_user, sleep_yes, sleep_no, all_users
 from dotenv import load_dotenv
 
 load_dotenv()

@@ -1,6 +1,7 @@
 import sqlite3 as sq
 
 
+
 def init_db():
     conn = sq.connect('my_database.db')
     cursor = conn.cursor()
