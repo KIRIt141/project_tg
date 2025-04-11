@@ -2,7 +2,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 
-async def inline_key():
+def inline_key():
     keyboar = InlineKeyboardBuilder()
     keyboar.add(InlineKeyboardButton(text='Sleep', callback_data='Sleep')),
     keyboar.add(InlineKeyboardButton(text='Not sleeping', callback_data='Not_Sleeping')),

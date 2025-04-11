@@ -1,12 +1,9 @@
 __pycache__/
 
-
+/data/
+*doc
 
 .env
-.gitignore
-
-my_database.db
-doc
 
 Dockerfile
 requirements.txt
